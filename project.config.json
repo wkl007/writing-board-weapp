@@ -1,0 +1,70 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "writing-board-weapp",
+	"description": "taro小程序模板",
+	"appid": "wxa4b0ec5e773910fc",
+	"setting": {
+		"urlCheck": false,
+		"es6": false,
+		"enhance": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"uglifyFileName": true,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"bundle": true,
+		"showShadowRootInWxmlPanel": false
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"libVersion": "2.9.3",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "自定义导航",
+					"pathName": "pages/navigation/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "手写板",
+					"pathName": "pages/write/index",
+					"scene": null
+				}
+			]
+		}
+	}
+}
