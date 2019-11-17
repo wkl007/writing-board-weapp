@@ -5,13 +5,9 @@ const BUILD = 'build'
 let defineConstants
 
 if (target.indexOf(TEST) >= 0) {
-  defineConstants = {
-    BASE_URL: '"https://api.test.com/v1/applets"',
-  }
+  defineConstants = {}
 } else if (target.indexOf(BUILD) >= 0) {
-  defineConstants = {
-    BASE_URL: '"https://api.build.com/v1/applets"',
-  }
+  defineConstants = {}
 }
 
 module.exports = {
